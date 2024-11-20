@@ -8,9 +8,16 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: "15px",
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        accent: "#FF8F9C",
+        blakish: "#1b1b1b",
+      },
+      transitionDuration: {
+        400: "400ms", // Add a custom duration
       },
     },
   },
